@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(websitee.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.37);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: #04AA6D;
+
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: yellow;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color: yellow;
+}
+p{
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+    color: yellow;
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter:  blur(10px);
+    box-shadow: 3px 3px 6px black;
+}
+h3{
+    margin-top: 70px;
+    color: yellow;
+    text-shadow: 2px 3px red;
+    text-align: center;
+
+}
+image{
+    size: 100px;
+}
+div{
+    margin-top: 50px;
+    backdrop-filter: blur(10%);
+    background-color: rgba(255, 255, 255, 0.178);
+}
+div li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+div a{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color: yellow;
+    padding: 0 30px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    background-color: rgba(128, 128, 128, 0.384);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(255, 255, 255, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.HTML{
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(html.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HTML:hover{
+    box-shadow: 3px 3px 6px aqua;
+    transform: translate(10px);
+}
+.CSS{
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(css.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.CSS:hover{
+    box-shadow: 3px 3px 6px aqua;
+    transform: translate(10px);
+}
+.JavaScript{
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(javastript.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.JavaScript:hover{
+    box-shadow: 3px 3px 6px aqua;
+    transform: translate(10px);
+}
+.python{
+    width: 180px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(react.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.python:hover{
+    box-shadow: 3px 3px 6px aqua;
+    transform: translate(10px);
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+.pic{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35px;
+    text-align: left;
+}
+.pic .wp{
+    justify-content: right;
+    color: black;
+}
+.Wapp{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: auto;
+}

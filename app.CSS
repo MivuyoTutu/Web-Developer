@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(homies.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.37);
+    box-shadow: 3px 3px 5px green;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #04AA6D;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    background-color: rgba(128, 128, 128, 0.384);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(255, 255, 255, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.distriptions{
+    background-color: rgba(0, 0, 0, 0.525);
+    backdrop-filter: blur(10px);
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px green;
+}
+.distriptions2{
+    background-color: rgba(0, 0, 0, 0.525);
+    backdrop-filter: blur(10px);
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px green;
+}
+.distriptions3{
+    background-color: rgba(0, 0, 0, 0.525);
+    backdrop-filter: blur(10px);
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px green;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+h2{
+    color: yellow;
+    text-align: center;
+}
+h3{
+    color: red;
+    text-align: center;
+    text-shadow: 3px 3px 6px yellow;
+    padding: 8px;
+}
+p{
+    color: white;
+    font-style: italic;
+
+}
+.src{
+    align-items: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  button[type=submit]:hover {
+    background-color: red;
+  }
+
+div{
+    margin-top: 50px;
+    backdrop-filter: blur(10%);
+    background-color: rgba(0, 0, 0, 0.603);
+    box-shadow: 3px 3px 5px green;
+}
+div li{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+div a{
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    color: white;
+    padding: 0 30px;
+}
+.appS{
+    display: block;
+    margin: auto;
+}
+.pic{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35px;
+    text-align: left;
+}
+.pic .wp{
+    justify-content: right;
+    color: black;
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+.Wapp{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: auto;
+}
